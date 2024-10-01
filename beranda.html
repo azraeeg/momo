@@ -164,128 +164,88 @@
         </div>
         <!-- End Header Top -->
 
-        <div class="rbt-header-wrapper header-space-betwween bg-color-white header-sticky">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <div class="mainbar-row rbt-navigation-start align-items-center">
-                    <div class="header-left">
-                        <div class="logo">
-                            <a href="#">
-                                <img style=" width: 100%; max-width: 100%; height: auto; object-fit: cover;" src="assets/images/logo/logo.png" alt="logo rspm">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="rbt-main-navigation d-none d-xl-block">
-                        <nav class="mainmenu-nav">
-                            <ul class="mainmenu">
-                                <li class="with-megamenu has-menu-child-item position-static">
-                                    <a href="beranda.html">Home </a>
-                                    <!-- Start Mega Menu  -->
-                                    <!-- End Mega Menu  -->
-                                </li>
-
-                                <li class="has-dropdown has-menu-child-item">
-                                    <a href="#">Tentang Kami
-                                        <i class="feather-chevron-down"></i>
-                                    </a>
-                                    <ul class="submenu">
-                                        <li class="has-dropdown"><a href="informasi umum.html">Informasi Umum</a>  
-                                        </li>
-                                        <li class="has-dropdown"><a href="sejarah.html">Sejarah</a>
-                                        </li>
-                                        <li class="has-dropdown"><a href="visi&misi.html">Visi & Misi</a>
-                                        </li>
-                                        <li class="has-dropdown"><a href="timkami.html">Tim Kami</a>
-                                        </li>
-                                        <li class="has-dropdown"><a href="indikatormutu.html">Indikator Mutu</a>
-                                        </li>
-                                    </ul>
-                                </li>
-
-                                <li class="has-dropdown has-menu-child-item">
-                                    <a href="#">Layanan
-                                        <i class="feather-chevron-down"></i>
-                                    </a>
-                                    <ul class="submenu">
-                                        <li class="has-dropdown"><a href="dokter.html">Dokter</a>
-                                        </li>
-                                        <li class="has-dropdown"><a href="poliklinik.html">Poliklinik</a>
-                                        </li>
-                                        <li class="has-dropdown"><a href="jadwalpraktek.html">Jadwal Praktet</a>
-                                        </li>
-                                        <li class="has-dropdown"><a href="rawatinap.html">Rawat Inap</a>
-                                        </li>
-                                        <li class="has-dropdown"><a href="pelayananunitkhusus.html">Pelayanan Unit Khusus</a>
-                                        </li>
-                                        <li class="has-dropdown"><a href="pelayananpenunjang.html">Pelayanan Penunjang</a>
-                                        </li>
-                                        <li class="has-dropdown"><a href="fasilitasumum.html">Fasilitas Umum</a>
-                                        </li>
-                                        <li class="has-dropdown"><a href="mcu.html">Medical Check Up</a>
-                                        </li>
-                                    </ul>
-                                </li>
-
-                                <li class="has-dropdown has-menu-child-item">
-                                    <a href="#">Berita
-                                        <i class="feather-chevron-down"></i>
-                                    </a>
-                                    <ul class="submenu">
-                                        <li class="has-dropdown"><a href="beritaterkini.html">Berita Terkini</a>
-                                        </li>
-                                        <li class="has-dropdown"><a href="publikasiindikatormenu.html">Publikasi Indikator Menu</a>
-                                        </li>
-                                        <li class="has-dropdown"><a href="galerikegiatan.html">Galeri Kegiatan</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="has-dropdown has-menu-child-item">
-                                    <a href="#">Pendaftaran
-                                        <i class="feather-chevron-down"></i>
-                                    </a>
-                                    <ul class="submenu">
-                                        <li class="has-dropdown"><a href="pendaftaranpasien.html">Pendaftaran Pasien</a>
-                                        </li>
-                                        <li class="has-dropdown"><a href="caradaftar.html">Cara Daftar</a>
-                                        </li>
-                                        <li class="has-dropdown"><a href="infobed.html">Info Bed</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="has-dropdown has-menu-child-item">
-                                    <a href="#">Hubungi Kami
-                                        <i class="feather-chevron-down"></i>
-                                    </a>
-                                    <ul class="submenu">
-                                        <li class="has-dropdown"><a href="kontakkami.html">Kontak Kami</a>
-                                        </li>
-                                        <li class="has-dropdown"><a href="kritiksaran.html">Kritik & Saran</a>
-                                        </li>
-                                        <li class="has-dropdown"><a href="surveykepuasan.html">Survey Kepuasan</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="header-right">
-                        <!-- Navbar Icons -->
-                        
-                        <!-- Start Mobile-Menu-Bar -->
-                        <div class="mobile-menu-bar d-block d-xl-none">
-                            <div class="hamberger">
-                                <button class="hamberger-button rbt-round-btn">
-                                    <i class="feather-menu"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <!-- Start Mobile-Menu-Bar -->
-                    </div>
-                </div>
+              <!-- Logo -->
+              <a class="navbar-brand" href="#">
+                <img src="assets/images/logo/logo.png" alt="logo rspm" style="width: 100px; height: auto;">
+              </a>
+          
+              <!-- Toggler for mobile -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <!-- Menu -->
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="beranda.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="tentangKamiDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Tentang Kami
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="tentangKamiDropdown">
+                      <li><a class="dropdown-item" href="informasi umum.html">Informasi Umum</a></li>
+                      <li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
+                      <li><a class="dropdown-item" href="visi&misi.html">Visi & Misi</a></li>
+                      <li><a class="dropdown-item" href="timkami.html">Tim Kami</a></li>
+                      <li><a class="dropdown-item" href="indikatormutu.html">Indikator Mutu</a></li>
+                    </ul>
+                  </li>
+          
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="layananDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Layanan
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="layananDropdown">
+                      <li><a class="dropdown-item" href="dokter.html">Dokter</a></li>
+                      <li><a class="dropdown-item" href="poliklinik.html">Poliklinik</a></li>
+                      <li><a class="dropdown-item" href="jadwalpraktek.html">Jadwal Praktek</a></li>
+                      <li><a class="dropdown-item" href="rawatinap.html">Rawat Inap</a></li>
+                      <li><a class="dropdown-item" href="pelayananunitkhusus.html">Pelayanan Unit Khusus</a></li>
+                      <li><a class="dropdown-item" href="pelayananpenunjang.html">Pelayanan Penunjang</a></li>
+                      <li><a class="dropdown-item" href="fasilitasumum.html">Fasilitas Umum</a></li>
+                      <li><a class="dropdown-item" href="mcu.html">Medical Check Up</a></li>
+                    </ul>
+                  </li>
+          
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="tentangKamiDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Berita
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="tentangKamiDropdown">
+                      <li><a class="dropdown-item" href="beritaterkini.html">Berita Terkini</a></li>
+                      <li><a class="dropdown-item" href="publikasiindikatormenu.html">Publikasi Indikator Menu</a></li>
+                      <li><a class="dropdown-item" href="galerikegiatan.html">Galeri Kegiatan</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="tentangKamiDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pendaftaran
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="tentangKamiDropdown">
+                      <li><a class="dropdown-item" href="pendaftaranpasien.html">Pendaftaran Pasien</a></li>
+                      <li><a class="dropdown-item" href="caradaftar.html">Cara Daftar</a></li>
+                      <li><a class="dropdown-item" href="infobed.html">Info Bed</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="tentangKamiDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Hubungi Kami
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="tentangKamiDropdown">
+                      <li><a class="dropdown-item" href="kontakkami.html">Kontak Kami</a></li>
+                      <li><a class="dropdown-item" href="kritiksaran.html">Kritik & Saran</a></li>
+                      <li><a class="dropdown-item" href="surveykepuasan.html">Survey Kepuasan</a></li>
+                    </ul>
+                  </li>
+          
+                </ul>
+              </div>
             </div>
-            <!-- Start Search Dropdown  -->
-            <!-- End Search Dropdown  -->
-        </div>
+          </nav>
 
 
 
