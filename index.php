@@ -504,8 +504,8 @@ require 'env/koneksi.php';
                 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                     <div class="rbt-card card-list-2 event-list-card variation-01 rbt-hover">
                         <div class="rbt-card-img">
-                            <a href="event-details.html">
-                                <img src="assets/images/event/grid-type-01.jpg" alt="Card image">
+                            <a>
+                                <img src="assets/images/logo/rspu1.jpg" alt="Card image">
                             </a>
                         </div>
                         <div class="rbt-card-body">
@@ -513,9 +513,9 @@ require 'env/koneksi.php';
                                 <li><i class="feather-calendar"></i>17 september, 2024</li>
                                 <li><i class="feather-map-pin"></i>Grobogan</li>
                             </ul>
-                            <h4 class="rbt-card-title"><a href="event-details.html">Pembukaan RS Baru</a></h4>
+                            <h4 class="rbt-card-title"><a>Pembukaan RS Baru</a></h4>
                             <div class="read-more-btn">
-                                <a class="rbt-btn btn-border hover-icon-reverse btn-sm radius-round" href="event-details.html">
+                                <a class="rbt-btn btn-border hover-icon-reverse btn-sm radius-round" href="beritarspu.php">
                                     <span class="icon-reverse-wrapper">
                                         <span class="btn-text">lihat artikel</span>
                                         <span class="btn-icon"><i class="feather-arrow-right"></i></span>
@@ -531,8 +531,8 @@ require 'env/koneksi.php';
                 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                     <div class="rbt-card card-list-2 event-list-card variation-01 rbt-hover">
                         <div class="rbt-card-img">
-                            <a href="">
-                                <img src="assets/images/event/grid-type-02.jpg" alt="Card image">
+                            <a>
+                                <img src="assets/images/logo/loker2.jpg" alt="Card image">
                             </a>
                         </div>
                         <div class="rbt-card-body">
@@ -540,9 +540,9 @@ require 'env/koneksi.php';
                                 <li><i class="feather-map-pin"></i>Semarang</li>
                                 <!-- <li><i class="feather-clock"></i>8:00 am - 5:00 pm</li> -->
                             </ul>
-                            <h4 class="rbt-card-title"><a href="">Penerimaan Karyawan RS Baru</a></h4>
+                            <h4 class="rbt-card-title"><a>Penerimaan Karyawan RS Baru</a></h4>
                             <div class="read-more-btn">
-                                <a class="rbt-btn btn-border hover-icon-reverse btn-sm radius-round" href="event-details.html">
+                                <a class="rbt-btn btn-border hover-icon-reverse btn-sm radius-round" href="beritaloker.php">
                                     <span class="icon-reverse-wrapper">
                                         <span class="btn-text">lihat artikel</span>
                                         <span class="btn-icon"><i class="feather-arrow-right"></i></span>
@@ -568,11 +568,11 @@ require 'env/koneksi.php';
                 </div>
                 <div class="col-lg-9">
                     <ul class="brand-list brand-style-2 justify-content-center justify-content-lg-between">
-                        <li><a href="#"><img src="assets/images/brand/brand-01.png" alt="Brand Image"></a></li>
-                        <li><a href="#"><img src="assets/images/brand/brand-02.png" alt="Brand Image"></a></li>
-                        <li><a href="#"><img src="assets/images/brand/brand-03.png" alt="Brand Image"></a></li>
-                        <li><a href="#"><img src="assets/images/brand/brand-04.png" alt="Brand Image"></a></li>
-                        <li><a href="#"><img src="assets/images/brand/brand-05.png" alt="Brand Image"></a></li>
+                        <li><a href="#"><img src="" alt="Brand Image"></a></li>
+                        <li><a href="#"><img src="" alt="Brand Image"></a></li>
+                        <li><a href="#"><img src="" alt="Brand Image"></a></li>
+                        <li><a href="#"><img src="" alt="Brand Image"></a></li>
+                        <li><a href="#"><img src="" alt="Brand Image"></a></li>
                     </ul>
                 </div>
             </div>

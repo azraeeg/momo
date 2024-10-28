@@ -9,7 +9,7 @@
                                     <img src="assets/images/logo/logo.png" alt="logo rspm">
                                 </a>
                             </div>
-                            <p class="description mt--20">RS PERMATA MEDIKA Semarang merupakan salah satu amal usaha milik PT PERMATA PANCA UTAMA, yang memiliki tugas memberikan pelayanan kesehatan yang prima dan profesional sesuai dengan kaidah ilmu kedokteran dan teknologi modern dengan tidak meninggalkan fungsi sosial dan ekonomi.
+                            <p class="description mt--20">RS PERMATA MEDIKA berada di Jl. Raya Mr. Moch Ichsan No.93-97, Ngaliyan, Kec. Ngaliyan, Kota Semarang, Jawa Tengah 50181, yang memiliki tugas memberikan pelayanan kesehatan yang prima dan profesional sesuai dengan kaidah ilmu kedokteran dan teknologi modern dengan tidak meninggalkan fungsi sosial dan ekonomi.
                             </p>
                             <ul class="social-icon social-default justify-content-start">
                                 <li>

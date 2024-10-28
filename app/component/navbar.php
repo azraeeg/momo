@@ -70,18 +70,18 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="beranda.html">Home</a>
+                            <a class="nav-link" href="index.php">Home</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="tentangKamiDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Tentang Kami
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="tentangKamiDropdown">
-                                <li><a class="dropdown-item" href="informasi umum.html">Informasi Umum</a></li>
-                                <li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
-                                <li><a class="dropdown-item" href="visi&misi.html">Visi & Misi</a></li>
-                                <li><a class="dropdown-item" href="timkami.html">Tim Kami</a></li>
-                                <li><a class="dropdown-item" href="indikatormutu.html">Indikator Mutu</a></li>
+                                <li><a class="dropdown-item" href="informasi umum.php">Informasi Umum</a></li>
+                                <li><a class="dropdown-item" href="sejarah.php">Sejarah</a></li>
+                                <li><a class="dropdown-item" href="visi&misi.php">Visi & Misi</a></li>
+                                <li><a class="dropdown-item" href="timkami.php">Tim Kami</a></li>
+                                <li><a class="dropdown-item" href="indikatormutu.php">Indikator Mutu</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -89,14 +89,14 @@
                                 Layanan
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="layananDropdown">
-                                <li><a class="dropdown-item" href="dokter.html">Dokter</a></li>
-                                <li><a class="dropdown-item" href="poliklinik.html">Poliklinik</a></li>
-                                <li><a class="dropdown-item" href="jadwalpraktek.html">Jadwal Praktek</a></li>
-                                <li><a class="dropdown-item" href="rawatinap.html">Rawat Inap</a></li>
-                                <li><a class="dropdown-item" href="pelayananunitkhusus.html">Pelayanan Unit Khusus</a></li>
-                                <li><a class="dropdown-item" href="pelayananpenunjang.html">Pelayanan Penunjang</a></li>
-                                <li><a class="dropdown-item" href="fasilitasumum.html">Fasilitas Umum</a></li>
-                                <li><a class="dropdown-item" href="mcu.html">Medical Check Up</a></li>
+                                <li><a class="dropdown-item" href="dokter.php">Dokter</a></li>
+                                <li><a class="dropdown-item" href="poliklinik.php">Poliklinik</a></li>
+                                <li><a class="dropdown-item" href="jadwalpraktek.php">Jadwal Praktek</a></li>
+                                <li><a class="dropdown-item" href="rawatinap.php">Rawat Inap</a></li>
+                                <li><a class="dropdown-item" href="pelayananunitkhusus.php">Pelayanan Unit Khusus</a></li>
+                                <li><a class="dropdown-item" href="pelayananpenunjang.php">Pelayanan Penunjang</a></li>
+                                <li><a class="dropdown-item" href="fasilitasumum.php">Fasilitas Umum</a></li>
+                                <li><a class="dropdown-item" href="mcu.php">Medical Check Up</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -104,9 +104,9 @@
                                 Berita
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="tentangKamiDropdown">
-                                <li><a class="dropdown-item" href="beritaterkini.html">Berita Terkini</a></li>
-                                <li><a class="dropdown-item" href="publikasiindikatormenu.html">Publikasi Indikator Menu</a></li>
-                                <li><a class="dropdown-item" href="galerikegiatan.html">Galeri Kegiatan</a></li>
+                                <li><a class="dropdown-item" href="beritaterkini.php">Berita Terkini</a></li>
+                                <li><a class="dropdown-item" href="publikasiindikatormenu.php">Publikasi Indikator Menu</a></li>
+                                <li><a class="dropdown-item" href="galerikegiatan.php">Galeri Kegiatan</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -114,9 +114,9 @@
                                 Pendaftaran
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="tentangKamiDropdown">
-                                <li><a class="dropdown-item" href="pendaftaranpasien.html">Pendaftaran Pasien</a></li>
-                                <li><a class="dropdown-item" href="caradaftar.html">Cara Daftar</a></li>
-                                <li><a class="dropdown-item" href="infobed.html">Info Bed</a></li>
+                                <li><a class="dropdown-item" href="pendaftaranpasien.php">Pendaftaran Pasien</a></li>
+                                <li><a class="dropdown-item" href="caradaftar.php">Cara Daftar</a></li>
+                                <li><a class="dropdown-item" href="infobed.php">Info Bed</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -124,9 +124,9 @@
                                 Hubungi Kami
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="tentangKamiDropdown">
-                                <li><a class="dropdown-item" href="kontakkami.html">Kontak Kami</a></li>
-                                <li><a class="dropdown-item" href="kritiksaran.html">Kritik & Saran</a></li>
-                                <li><a class="dropdown-item" href="surveykepuasan.html">Survey Kepuasan</a></li>
+                                <li><a class="dropdown-item" href="kontakkami.php">Kontak Kami</a></li>
+                                <li><a class="dropdown-item" href="kritiksaran.php">Kritik & Saran</a></li>
+                                <li><a class="dropdown-item" href="surveykepuasan.php">Survey Kepuasan</a></li>
                             </ul>
                         </li>
                     </ul>
